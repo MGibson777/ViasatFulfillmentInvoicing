@@ -19,13 +19,13 @@ driver = webdriver.Chrome(executable_path=r'C:\Users\thegi\PycharmProjects\Viasa
 
 
 
-invoice_name = "Jim"
+invoice_name = "TECH_FIRST_NAME"
 
 last_check_date = "04/08/2021"
 
 todays_date = "04/08/2021"
 
-invoice_name_date = "JamesCrabtree4921"
+invoice_name_date = "######4921"
 
 
 from selenium.webdriver.common.keys import Keys
@@ -39,9 +39,9 @@ time.sleep(5)
 #y = input("password")
 
 elem = driver.find_element_by_name('j_username')
-elem.send_keys("michael.gibson.pv")
+elem.send_keys("#############")
 elem = driver.find_element_by_name('j_password')
-elem.send_keys("TeeHiggins85!")
+elem.send_keys("#############")
 elem = driver.find_element_by_name('submit')
 elem.click()
 
