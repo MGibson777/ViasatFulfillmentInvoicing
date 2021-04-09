@@ -1,0 +1,2 @@
+# ViasatFulfillmentInvoicing
+This is an automated program designed to eliminate human error and the time involved with constructing invoices. Selenium was utilized to scrape the tech's job data, pandas to work inside the excel file, and docx to create the document. The fulfillment username and password have been removed from the program but anyone with a fulfillment login could utilize the program as long as they update the regions and compensation.
